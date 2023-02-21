@@ -1,6 +1,6 @@
 function calculateMinCost() {
   //your code here
-	let inputValue = document.querySelector("input").value;
+	var inputValue = document.querySelector("input").value;
 	var arr = inputValue.split(",");
 	arr.sort(function(a,b) {return (a-b);})
 	var cost = 0;
